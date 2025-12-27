@@ -1,0 +1,83 @@
+html {
+    background-color: black !important;
+}
+
+body {
+    background-color: black !important;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+.signup-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.signup-container h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.signup-container h1 span {
+    color: rgb(163, 230, 53);
+}
+
+.signup-form {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    color: rgb(163, 230, 53);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    border-color: rgb(163, 230, 53);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(163, 230, 53);
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: black;
+    color: rgb(163, 230, 53);
+    border: 2px solid rgb(163, 230, 53);
+}

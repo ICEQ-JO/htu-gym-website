@@ -1,0 +1,12 @@
+.nav-item {
+    color: white;
+}
+
+.join-now {
+    border-radius: 50px;
+    color: black;
+    background: rgb(163, 230, 53);
+    padding: 12px 35px;
+    font-weight: bold;
+    border-style: none;
+}
