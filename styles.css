@@ -1,0 +1,459 @@
+.home-page-middle-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/1347774.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 257px;
+}
+
+.home-page-middle-part h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: transparent;
+    /* Remove black background */
+    padding: 0;
+    /* Remove any padding */
+}
+
+.home-page-middle-part p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav-item {
+    color: white;
+}
+
+.join-now {
+    border-radius: 50px;
+    color: black;
+    background: rgb(163, 230, 53);
+    padding: 12px 35px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.view-schedule {
+    border-radius: 50px;
+    color: white;
+    padding: 12px 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.home-page-achievements-part {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
+    justify-content: center;
+    background-color: rgb(163, 230, 53);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#info-top-right {
+    padding-right: 150px;
+    justify-content: center;
+
+}
+
+#info-top-left {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+#info-buttom-right {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+#info-buttom-left {
+    padding-left: 150px
+}
+
+.htu-home-page-features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+    /* width: 100%; */
+}
+
+
+.htu-home-page-features h2 {
+    font-weight: bold;
+    margin: 0 auto;
+    /* Centers the h2 element */
+    margin-bottom: 0px;
+    padding: 20px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+#h-t-u {
+    color: rgb(163, 230, 53);
+}
+
+#h-t-u-p {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #cccccc;
+}
+
+.htu-features-card {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.htu-features-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.htu-features-card p {
+    font-size: 1rem;
+    color: #cccccc;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.htu-features-card p a {
+    color: rgb(163, 230, 53);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.htu-features-card p a:hover {
+    text-decoration: underline;
+}
+
+.home-page-community {
+    background-color: rgb(163, 230, 53);
+    text-align: center;
+    padding: 100px 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-community h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.home-page-community p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.home-page-community h3 a {
+    color: black;
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.home-page-community h3 a:hover {
+    background-color: black;
+    color: rgb(163, 230, 53);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 60px 150px;
+    /* Further increased horizontal padding for edge spacing */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footer-left-side {
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.footer-left-side h3 {
+    color: rgb(163, 230, 53);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.footer-left-side p {
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.footer-right-side {
+    text-align: right;
+}
+
+.footer-right-side h3 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.footer-right-side p {
+    color: #cccccc;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+
+/* Classes Page Styles */
+
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    /* Remove bottom margin to eliminate white line */
+    font-size: 3rem;
+    font-weight: 900;
+    background-color: black;
+    margin-top: 0;
+    /* Remove default margin causing white line */
+    padding-top: 50px;
+    /* Add spacing inside black background */
+    padding-bottom: 50px;
+    /* Increased padding for spacing */
+}
+
+h1 span {
+    color: rgb(163, 230, 53);
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+    /* Reset body margin */
+    padding: 0;
+    /* Reset body padding */
+}
+
+/* Remove any potential horizontal rules */
+hr {
+    display: none;
+    border: none;
+}
+
+/* Classes Section */
+.mma-classes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    /* Increased top padding */
+    background-color: black;
+    margin-top: 0;
+    /* Ensure no gap */
+}
+
+.mma-classes-card {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 15px;
+    /* Reduced margin to fit 3 */
+    width: 29%;
+    /* Changed to % to fit 3 per row (approx) */
+    min-width: 300px;
+    /* Ensure they don't get too small */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Left align items */
+    text-align: left;
+    /* Left align text */
+    color: white;
+    border: 1px solid #333;
+    /* subtle border */
+}
+
+.mma-classes-card h3 {
+    color: rgb(163, 230, 53);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.mma-classes-card p {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.mma-classes-card ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.mma-classes-card li {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    /* list-style: none; - avoided per rule */
+}
+
+/* Plans Section */
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: black;
+}
+
+.plans h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.plans h2 span {
+    color: rgb(163, 230, 53);
+}
+
+.plans p {
+    width: 100%;
+    text-align: center;
+    color: #cccccc;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.plan-card {
+    background-color: #1a1a1a;
+    color: white;
+    /* Changed to white for dark theme */
+    border-radius: 20px;
+    padding: 40px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Changed from center to flex-start for left alignment */
+    text-align: left;
+    /* Changed from center to left */
+    width: 280px;
+    border: 1px solid #333;
+    /* subtle border */
+}
+
+.plan-card h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.plan-card h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(163, 230, 53);
+    margin-bottom: 30px;
+    background-color: transparent;
+    /* No background box in image, just text */
+    padding: 10px 0;
+    /* adjusted */
+    border-radius: 0;
+    align-self: center;
+    /* Keep price centered effectively or left? Image suggests left aligned with "mo". Let's keep it simple. */
+    width: 100%;
+}
+
+.plan-card ul {
+    padding-left: 0;
+    margin: 0;
+    width: 100%;
+    /* Ensure list takes width */
+}
+
+.plan-card li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    /* font-weight: bold; removed to be lighter like image */
+    color: #cccccc;
+    /* lighter grey for text */
+}
+
+.choose-plan {
+    margin-top: 20px;
+    background-color: transparent;
+    /* Outline style */
+    color: rgb(163, 230, 53);
+    border: 2px solid rgb(163, 230, 53);
+    /* Neon border */
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 100%;
+    /* Full width button */
+}
+
+.choose-plan:hover {
+    background-color: rgb(163, 230, 53);
+    color: black;
+}
+
+/* Featured Plan Styles */
+.best-plan {
+    border: 2px solid rgb(163, 230, 53);
+    /* Neon border for best plan */
+}
+
+.best-plan .choose-plan {
+    background-color: rgb(163, 230, 53);
+    color: black;
+}
