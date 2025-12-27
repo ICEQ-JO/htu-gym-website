@@ -104,6 +104,27 @@ hr {
     margin-bottom: 40px;
 }
 
+.specialist-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: black;
+}
+
+.specialist-courses h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.specialist-courses h2 span {
+    color: rgb(163, 230, 53);
+}
+
 .plan-card {
     background-color: #1a1a1a;
     color: white;
@@ -114,7 +135,8 @@ hr {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    width: 280px;
+    width: calc(33.333% - 40px);
+    min-width: 280px;
     border: 1px solid #333;
 }
 
