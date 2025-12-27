@@ -202,12 +202,26 @@
 footer {
     background-color: black;
     color: white;
-    padding: 60px 150px;
-    /* Further increased horizontal padding for edge spacing */
+    padding: 60px 20px;
+    /* Reduced padding to push content to the far edges */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
+    width: 100%;
+    /* Ensure footer takes full width */
+}
+
+.footer-left-side {
+    text-align: left;
+    flex: 1;
+    /* Allow it to grow */
+}
+
+.footer-right-side {
+    text-align: right;
+    flex: 1;
+    /* Allow it to grow */
 }
 
 .footer-left-side {

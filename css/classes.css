@@ -1,0 +1,244 @@
+.nav-item {
+    color: white;
+}
+
+.join-now {
+    border-radius: 50px;
+    color: black;
+    background: rgb(163, 230, 53);
+    padding: 12px 35px;
+    font-weight: bold;
+    border-style: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.footer-left-side {
+    text-align: left;
+    flex: 1;
+}
+
+.footer-right-side {
+    text-align: right;
+    flex: 1;
+}
+
+.footer-left-side {
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.footer-left-side h3 {
+    color: rgb(163, 230, 53);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.footer-left-side p {
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.footer-right-side {
+    text-align: right;
+}
+
+.footer-right-side h3 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.footer-right-side p {
+    color: #cccccc;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    font-size: 3rem;
+    font-weight: 900;
+    background-color: black;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 span {
+    color: rgb(163, 230, 53);
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    display: none;
+    border: none;
+}
+
+.mma-classes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: black;
+    margin-top: 0;
+}
+
+.mma-classes-card {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 15px;
+    width: 29%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: white;
+    border: 1px solid #333;
+}
+
+.mma-classes-card h3 {
+    color: rgb(163, 230, 53);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.mma-classes-card p {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.mma-classes-card ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.mma-classes-card li {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: black;
+}
+
+.plans h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.plans h2 span {
+    color: rgb(163, 230, 53);
+}
+
+.plans p {
+    width: 100%;
+    text-align: center;
+    color: #cccccc;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.plan-card {
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 280px;
+    border: 1px solid #333;
+}
+
+.plan-card h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.plan-card h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(163, 230, 53);
+    margin-bottom: 30px;
+    background-color: transparent;
+    padding: 10px 0;
+    border-radius: 0;
+    align-self: center;
+    width: 100%;
+}
+
+.plan-card ul {
+    padding-left: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.plan-card li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #cccccc;
+}
+
+.choose-plan {
+    margin-top: 20px;
+    background-color: transparent;
+    color: rgb(163, 230, 53);
+    border: 2px solid rgb(163, 230, 53);
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.choose-plan:hover {
+    background-color: rgb(163, 230, 53);
+    color: black;
+}
+
+.best-plan {
+    border: 2px solid rgb(163, 230, 53);
+}
+
+.best-plan .choose-plan {
+    background-color: rgb(163, 230, 53);
+    color: black;
+}
