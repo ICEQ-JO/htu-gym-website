@@ -1,3 +1,25 @@
+<?php
+$con = mysqli_connect('localhost', 'root', '', 'htuGym', 3307);
+
+if (!$con) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    
+    $sql = "INSERT INTO users (first_name, last_name, email, password) VALUES ('$first_name', '$last_name', '$email', '$password')";
+    
+    if (mysqli_query($con, $sql)) {
+        echo "<script>alert('Registration successful! Please login.'); window.location.href='login.php';</script>";
+    } else {
+        echo "<script>alert('Error: " . mysqli_error($con) . "');</script>";
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,10 +65,10 @@
                     </li>
                 </ul>
                 <div class="d-flex align-items-center gap-4">
-                    <a href="login.html" class="text-secondary text-decoration-none fw-bold"
+                    <a href="login.php" class="text-secondary text-decoration-none fw-bold"
                         style="font-size: 0.9rem;">LOG
                         IN</a>
-                    <a href="signup.html" class="text-secondary text-decoration-none fw-bold"
+                    <a href="signup.php" class="text-secondary text-decoration-none fw-bold"
                         style="font-size: 0.9rem;">SIGN UP</a>
                     <a href="#" class="btn bg-neon text-black rounded-pill fw-bold px-4">Join Now</a>
                 </div>
@@ -57,25 +79,25 @@
     <div class="signup-container">
         <h1>Welcome <span>In</span></h1>
 
-        <form class="signup-form">
+        <form class="signup-form" method="POST">
             <div class="form-group">
                 <label>First Name</label>
-                <input type="text" placeholder="Enter your first name">
+                <input type="text" name="first_name" placeholder="Enter your first name">
             </div>
 
             <div class="form-group">
                 <label>Last Name</label>
-                <input type="text" placeholder="Enter your last name">
+                <input type="text" name="last_name" placeholder="Enter your last name">
             </div>
 
             <div class="form-group">
                 <label>Email</label>
-                <input type="email" placeholder="Enter your email">
+                <input type="email" name="email" placeholder="Enter your email">
             </div>
 
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" placeholder="Enter your password">
+                <input type="password" name="password" placeholder="Enter your password">
             </div>
 
             <button type="submit" class="submit-btn">Sign Up</button>

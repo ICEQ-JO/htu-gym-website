@@ -1,0 +1,107 @@
+html {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.dashboard-container h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.dashboard-container h1 span {
+    color: rgb(163, 230, 53);
+}
+
+.dashboard-intro {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.plans-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.plan-card {
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 40px;
+    width: calc(33.333% - 40px);
+    min-width: 280px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.plan-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.plan-card h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(163, 230, 53);
+    margin-bottom: 20px;
+}
+
+.plan-card p {
+    color: #cccccc;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.delete-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: rgb(255, 50, 50);
+    border: 2px solid rgb(255, 50, 50);
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: rgb(255, 50, 50);
+    color: black;
+}
+
+.no-plans {
+    font-size: 1.2rem;
+    color: #cccccc;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.no-plans a {
+    color: rgb(163, 230, 53);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.no-plans a:hover {
+    text-decoration: underline;
+}

@@ -1,3 +1,26 @@
+<?php
+$con = mysqli_connect('localhost', 'root', '', 'htuGym', 3307);
+
+if (!$con) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    
+    $sql = "SELECT * FROM users WHERE email = '$email' AND password = '$password'";
+    $result = mysqli_query($con, $sql);
+    
+    if (mysqli_num_rows($result) == 1) {
+        $user = mysqli_fetch_assoc($result);
+        $user_id = $user['id'];
+        echo "<script>alert('Login successful!'); window.location.href='../php-pages/dashboard.php?user_id=$user_id';</script>";
+    } else {
+        echo "<script>alert('Invalid email or password!');</script>";
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,10 +66,10 @@
                     </li>
                 </ul>
                 <div class="d-flex align-items-center gap-4">
-                    <a href="login.html" class="text-secondary text-decoration-none fw-bold"
+                    <a href="login.php" class="text-secondary text-decoration-none fw-bold"
                         style="font-size: 0.9rem;">LOG
                         IN</a>
-                    <a href="signup.html" class="text-secondary text-decoration-none fw-bold"
+                    <a href="signup.php" class="text-secondary text-decoration-none fw-bold"
                         style="font-size: 0.9rem;">SIGN UP</a>
                     <a href="#" class="btn bg-neon text-black rounded-pill fw-bold px-4">Join Now</a>
                 </div>
@@ -57,15 +80,15 @@
     <div class="login-container">
         <h1>Welcome <span>Back</span></h1>
 
-        <form class="login-form">
+        <form class="login-form" method="POST">
             <div class="form-group">
                 <label>Email Address</label>
-                <input type="email" placeholder="Enter your email">
+                <input type="email" name="email" placeholder="Enter your email">
             </div>
 
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" placeholder="Enter your password">
+                <input type="password" name="password" placeholder="Enter your password">
             </div>
 
             <button type="submit" class="submit-btn">Login</button>
