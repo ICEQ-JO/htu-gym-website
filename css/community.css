@@ -1,3 +1,20 @@
+html {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.community-container {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: black;
+}
+
 .community-container h1 {
     font-size: 3rem;
     font-weight: 900;
@@ -15,10 +32,10 @@
 
 .community-intro {
     font-size: 1.2rem;
-    color: #cccccc;
+    color: white;
     margin-bottom: 50px;
     line-height: 1.6;
-
+    text-align: center;
 }
 
 .contact-form {
@@ -27,7 +44,7 @@
     border-radius: 12px;
     border: 1px solid #333;
     text-align: left;
-
+    margin-bottom: 60px;
 }
 
 .form-group {
@@ -87,4 +104,39 @@
     background-color: black;
     color: rgb(163, 230, 53);
     border: 2px solid rgb(163, 230, 53);
+}
+
+.social-media-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.social-media-section h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.social-link i {
+    font-size: 2rem;
+    color: rgb(163, 230, 53);
 }
