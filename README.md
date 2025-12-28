@@ -311,42 +311,15 @@ Use signup page to create your own account
 - [ ] Coach availability calendar
 - [ ] Member reviews and ratings
 
-## 🤝 Contributing
-
-This is an educational project for HTU. Contributions, issues, and feature requests are welcome!
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is created for educational purposes as part of HTU coursework.
 
 ## 👨‍💻 Author
 
 **Khaled Khudari**
 - GitHub: [@ICEQ-JO](https://github.com/ICEQ-JO)
 - Email: khaledkhudari1@gmail.com
-- University: Hashemite Technical University
+- University : Al Hussain Technical University
 
-## 🙏 Acknowledgments
 
-- HTU for the project opportunity
-- Bootstrap team for the excellent framework
-- InfinityFree for free hosting
-- All martial arts enthusiasts who inspired this project
+**Built with ❤️ By Khalid Khudari for HTU GYM**
 
-## 📞 Support
 
-For questions or support regarding this project:
-- Open an issue on GitHub
-- Email: khaledkhudari1@gmail.com
-
----
-
-**Built with ❤️ for HTU GYM**
-
-*Unleash Your Inner Warrior* 🥋
