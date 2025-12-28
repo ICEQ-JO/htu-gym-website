@@ -1,9 +1,7 @@
-```javascript
-
 document.addEventListener('DOMContentLoaded', function () {
 
     const forms = document.querySelectorAll('form');
-    
+
     forms.forEach(function (form) {
         form.addEventListener('submit', function (e) {
 
@@ -24,12 +22,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const choosePlanButtons = document.querySelectorAll('.choose-plan');
-    choosePlanButtons.forEach(function(button) {
-        button.addEventListener('click', function() {
+    choosePlanButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
             const planId = this.getAttribute('data-plan-id');
             const userId = 1;
             window.location.href = '../php-pages/dashboard.php?action=add&plan_id=' + planId + '&user_id=' + userId;
         });
     });
 });
-```
